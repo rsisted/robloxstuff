@@ -1,3 +1,5 @@
+
+
 -- Instances
 
 local RSPackLoader = Instance.new("ScreenGui")
@@ -16,6 +18,7 @@ local TextButton = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
 local TextButton_2 = Instance.new("TextButton")
 local UICorner_4 = Instance.new("UICorner")
+local TextLabel_8 = Instance.new("TextLabel")
 
 -- Properties
 
@@ -26,7 +29,7 @@ Frame.Parent = RSPackLoader
 Frame.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
 Frame.BorderColor3 = Color3.new(0, 0, 0)
 Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0.303412467, 0, 0.294486225, 0)
+Frame.Position = UDim2.new(0.5, -264, 0.5, -164)
 Frame.Size = UDim2.new(0, 529, 0, 328)
 
 UICorner.Parent = Frame
@@ -174,20 +177,37 @@ TextButton_2.TextWrapped = true
 UICorner_4.Parent = TextButton_2
 UICorner_4.CornerRadius = UDim.new(0, 11)
 
+TextLabel_8.Parent = Frame
+TextLabel_8.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_8.BackgroundTransparency = 1
+TextLabel_8.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(0.0226843096, 0, 0.39939025, 0)
+TextLabel_8.Size = UDim2.new(0, 299, 0, 19)
+TextLabel_8.Font = Enum.Font.ArialBold
+TextLabel_8.Text = "YAHRM (use universal)"
+TextLabel_8.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14
+TextLabel_8.TextWrapped = true
+TextLabel_8.TextXAlignment = Enum.TextXAlignment.Left
+
 -- Scripts
 
-local function HHEG_fake_script() -- TextButton.LocalScript 
+local function YIUJ_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-		task.wait(.5)
+		task.wait(1)
 		loadstring(game:HttpGet('https://pastebin.com/raw/S4skyvLa'))()
+		task.wait(1)
+		loadstring(game:HttpGet("https://yarhm.goteamst.com/scr", false))()
 		script.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(HHEG_fake_script)()
-local function LDAVPW_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(YIUJ_fake_script)()
+local function CEOV_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -195,4 +215,4 @@ local function LDAVPW_fake_script() -- TextButton_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(LDAVPW_fake_script)()
+coroutine.wrap(CEOV_fake_script)()
