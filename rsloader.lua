@@ -69,7 +69,7 @@ TextLabel_3.BorderSizePixel = 0
 TextLabel_3.Position = UDim2.new(0.134215504, 0, 0.112804875, 0)
 TextLabel_3.Size = UDim2.new(0, 388, 0, 14)
 TextLabel_3.Font = Enum.Font.ArialBold
-TextLabel_3.Text = "Version 1.0"
+TextLabel_3.Text = "Version 1.1"
 TextLabel_3.TextColor3 = Color3.new(1, 1, 1)
 TextLabel_3.TextScaled = true
 TextLabel_3.TextSize = 14
@@ -176,7 +176,7 @@ UICorner_4.CornerRadius = UDim.new(0, 11)
 
 -- Scripts
 
-local function RSNIQWQ_fake_script() -- TextButton.LocalScript 
+local function HHEG_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -186,8 +186,8 @@ local function RSNIQWQ_fake_script() -- TextButton.LocalScript
 		script.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(RSNIQWQ_fake_script)()
-local function CEHGQW_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(HHEG_fake_script)()
+local function LDAVPW_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -195,4 +195,4 @@ local function CEHGQW_fake_script() -- TextButton_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(CEHGQW_fake_script)()
+coroutine.wrap(LDAVPW_fake_script)()
